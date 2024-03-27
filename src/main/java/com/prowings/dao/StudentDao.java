@@ -6,7 +6,7 @@ import com.prowings.entity.Student;
 
 public interface StudentDao {
 	
-	public void saveStudent(Student student);
+	public boolean saveStudent(Student student);
 
 	public List<Student> getStudentsList();
 
